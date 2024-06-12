@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF4E9BD92C11AC8F00DFA40B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9BD82C11AC8F00DFA40B /* AppDelegate.swift */; };
+		EF4E9BDB2C11AC8F00DFA40B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9BDA2C11AC8F00DFA40B /* SceneDelegate.swift */; };
+		EF4E9BDD2C11AC8F00DFA40B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9BDC2C11AC8F00DFA40B /* ViewController.swift */; };
+		EF4E9BE02C11AC8F00DFA40B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF4E9BDF2C11AC8F00DFA40B /* Base */; };
+		EF4E9BE22C11AC9100DFA40B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4E9BE12C11AC9100DFA40B /* Assets.xcassets */; };
+		EF4E9BE52C11AC9100DFA40B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EF4E9BE42C11AC9100DFA40B /* Base */; };
+		EF4E9BF02C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9BEF2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.swift */; };
+		EF4E9BFA2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9BF92C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.swift */; };
+		EF4E9BFC2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9BFB2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITestsLaunchTests.swift */; };
+		EF4E9C092C11AD2F00DFA40B /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9C082C11AD2F00DFA40B /* MyTableViewCell.swift */; };
+		EF4E9C0B2C11B01E00DFA40B /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9C0A2C11B01E00DFA40B /* MyCollectionViewCell.swift */; };
+		EF4E9C0D2C11B0F000DFA40B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4E9C0C2C11B0F000DFA40B /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4E9BEC2C11AC9200DFA40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4E9BCD2C11AC8F00DFA40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4E9BD42C11AC8F00DFA40B;
+			remoteInfo = Horizontal_Scroll_CollectionView;
+		};
+		EF4E9BF62C11AC9200DFA40B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF4E9BCD2C11AC8F00DFA40B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF4E9BD42C11AC8F00DFA40B;
+			remoteInfo = Horizontal_Scroll_CollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF4E9BD52C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horizontal_Scroll_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4E9BD82C11AC8F00DFA40B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF4E9BDA2C11AC8F00DFA40B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF4E9BDC2C11AC8F00DFA40B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF4E9BDF2C11AC8F00DFA40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF4E9BE12C11AC9100DFA40B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF4E9BE42C11AC9100DFA40B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF4E9BE62C11AC9100DFA40B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4E9BEB2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horizontal_Scroll_CollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4E9BEF2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizontal_Scroll_CollectionViewTests.swift; sourceTree = "<group>"; };
+		EF4E9BF52C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horizontal_Scroll_CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4E9BF92C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizontal_Scroll_CollectionViewUITests.swift; sourceTree = "<group>"; };
+		EF4E9BFB2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizontal_Scroll_CollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF4E9C082C11AD2F00DFA40B /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		EF4E9C0A2C11B01E00DFA40B /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF4E9C0C2C11B0F000DFA40B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF4E9BD22C11AC8F00DFA40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E9BE82C11AC9200DFA40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E9BF22C11AC9200DFA40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF4E9BCC2C11AC8F00DFA40B = {
+			isa = PBXGroup;
+			children = (
+				EF4E9BD72C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView */,
+				EF4E9BEE2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests */,
+				EF4E9BF82C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests */,
+				EF4E9BD62C11AC8F00DFA40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF4E9BD62C11AC8F00DFA40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E9BD52C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView.app */,
+				EF4E9BEB2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.xctest */,
+				EF4E9BF52C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4E9BD72C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E9BD82C11AC8F00DFA40B /* AppDelegate.swift */,
+				EF4E9BDA2C11AC8F00DFA40B /* SceneDelegate.swift */,
+				EF4E9BDC2C11AC8F00DFA40B /* ViewController.swift */,
+				EF4E9BDE2C11AC8F00DFA40B /* Main.storyboard */,
+				EF4E9C0C2C11B0F000DFA40B /* Model.swift */,
+				EF4E9C0A2C11B01E00DFA40B /* MyCollectionViewCell.swift */,
+				EF4E9C082C11AD2F00DFA40B /* MyTableViewCell.swift */,
+				EF4E9BE12C11AC9100DFA40B /* Assets.xcassets */,
+				EF4E9BE32C11AC9100DFA40B /* LaunchScreen.storyboard */,
+				EF4E9BE62C11AC9100DFA40B /* Info.plist */,
+			);
+			path = Horizontal_Scroll_CollectionView;
+			sourceTree = "<group>";
+		};
+		EF4E9BEE2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E9BEF2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.swift */,
+			);
+			path = Horizontal_Scroll_CollectionViewTests;
+			sourceTree = "<group>";
+		};
+		EF4E9BF82C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4E9BF92C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.swift */,
+				EF4E9BFB2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITestsLaunchTests.swift */,
+			);
+			path = Horizontal_Scroll_CollectionViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF4E9BD42C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4E9BFF2C11AC9200DFA40B /* Build configuration list for PBXNativeTarget "Horizontal_Scroll_CollectionView" */;
+			buildPhases = (
+				EF4E9BD12C11AC8F00DFA40B /* Sources */,
+				EF4E9BD22C11AC8F00DFA40B /* Frameworks */,
+				EF4E9BD32C11AC8F00DFA40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horizontal_Scroll_CollectionView;
+			productName = Horizontal_Scroll_CollectionView;
+			productReference = EF4E9BD52C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4E9BEA2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4E9C022C11AC9200DFA40B /* Build configuration list for PBXNativeTarget "Horizontal_Scroll_CollectionViewTests" */;
+			buildPhases = (
+				EF4E9BE72C11AC9200DFA40B /* Sources */,
+				EF4E9BE82C11AC9200DFA40B /* Frameworks */,
+				EF4E9BE92C11AC9200DFA40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4E9BED2C11AC9200DFA40B /* PBXTargetDependency */,
+			);
+			name = Horizontal_Scroll_CollectionViewTests;
+			productName = Horizontal_Scroll_CollectionViewTests;
+			productReference = EF4E9BEB2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF4E9BF42C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4E9C052C11AC9200DFA40B /* Build configuration list for PBXNativeTarget "Horizontal_Scroll_CollectionViewUITests" */;
+			buildPhases = (
+				EF4E9BF12C11AC9200DFA40B /* Sources */,
+				EF4E9BF22C11AC9200DFA40B /* Frameworks */,
+				EF4E9BF32C11AC9200DFA40B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4E9BF72C11AC9200DFA40B /* PBXTargetDependency */,
+			);
+			name = Horizontal_Scroll_CollectionViewUITests;
+			productName = Horizontal_Scroll_CollectionViewUITests;
+			productReference = EF4E9BF52C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF4E9BCD2C11AC8F00DFA40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EF4E9BD42C11AC8F00DFA40B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EF4E9BEA2C11AC9200DFA40B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF4E9BD42C11AC8F00DFA40B;
+					};
+					EF4E9BF42C11AC9200DFA40B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EF4E9BD42C11AC8F00DFA40B;
+					};
+				};
+			};
+			buildConfigurationList = EF4E9BD02C11AC8F00DFA40B /* Build configuration list for PBXProject "Horizontal_Scroll_CollectionView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF4E9BCC2C11AC8F00DFA40B;
+			productRefGroup = EF4E9BD62C11AC8F00DFA40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF4E9BD42C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView */,
+				EF4E9BEA2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests */,
+				EF4E9BF42C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF4E9BD32C11AC8F00DFA40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4E9BE22C11AC9100DFA40B /* Assets.xcassets in Resources */,
+				EF4E9BE52C11AC9100DFA40B /* Base in Resources */,
+				EF4E9BE02C11AC8F00DFA40B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E9BE92C11AC9200DFA40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E9BF32C11AC9200DFA40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF4E9BD12C11AC8F00DFA40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4E9BDD2C11AC8F00DFA40B /* ViewController.swift in Sources */,
+				EF4E9C0B2C11B01E00DFA40B /* MyCollectionViewCell.swift in Sources */,
+				EF4E9C092C11AD2F00DFA40B /* MyTableViewCell.swift in Sources */,
+				EF4E9C0D2C11B0F000DFA40B /* Model.swift in Sources */,
+				EF4E9BD92C11AC8F00DFA40B /* AppDelegate.swift in Sources */,
+				EF4E9BDB2C11AC8F00DFA40B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E9BE72C11AC9200DFA40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4E9BF02C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4E9BF12C11AC9200DFA40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4E9BFC2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITestsLaunchTests.swift in Sources */,
+				EF4E9BFA2C11AC9200DFA40B /* Horizontal_Scroll_CollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4E9BED2C11AC9200DFA40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4E9BD42C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView */;
+			targetProxy = EF4E9BEC2C11AC9200DFA40B /* PBXContainerItemProxy */;
+		};
+		EF4E9BF72C11AC9200DFA40B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF4E9BD42C11AC8F00DFA40B /* Horizontal_Scroll_CollectionView */;
+			targetProxy = EF4E9BF62C11AC9200DFA40B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF4E9BDE2C11AC8F00DFA40B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4E9BDF2C11AC8F00DFA40B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF4E9BE32C11AC9100DFA40B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF4E9BE42C11AC9100DFA40B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF4E9BFD2C11AC9200DFA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4E9BFE2C11AC9200DFA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF4E9C002C11AC9200DFA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Horizontal_Scroll_CollectionView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Horizontal-Scroll-CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF4E9C012C11AC9200DFA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Horizontal_Scroll_CollectionView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Horizontal-Scroll-CollectionView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF4E9C032C11AC9200DFA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Horizontal-Scroll-CollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizontal_Scroll_CollectionView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Horizontal_Scroll_CollectionView";
+			};
+			name = Debug;
+		};
+		EF4E9C042C11AC9200DFA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Horizontal-Scroll-CollectionViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizontal_Scroll_CollectionView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Horizontal_Scroll_CollectionView";
+			};
+			name = Release;
+		};
+		EF4E9C062C11AC9200DFA40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Horizontal-Scroll-CollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horizontal_Scroll_CollectionView;
+			};
+			name = Debug;
+		};
+		EF4E9C072C11AC9200DFA40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sumit.Horizontal-Scroll-CollectionViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Horizontal_Scroll_CollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF4E9BD02C11AC8F00DFA40B /* Build configuration list for PBXProject "Horizontal_Scroll_CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4E9BFD2C11AC9200DFA40B /* Debug */,
+				EF4E9BFE2C11AC9200DFA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4E9BFF2C11AC9200DFA40B /* Build configuration list for PBXNativeTarget "Horizontal_Scroll_CollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4E9C002C11AC9200DFA40B /* Debug */,
+				EF4E9C012C11AC9200DFA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4E9C022C11AC9200DFA40B /* Build configuration list for PBXNativeTarget "Horizontal_Scroll_CollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4E9C032C11AC9200DFA40B /* Debug */,
+				EF4E9C042C11AC9200DFA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4E9C052C11AC9200DFA40B /* Build configuration list for PBXNativeTarget "Horizontal_Scroll_CollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4E9C062C11AC9200DFA40B /* Debug */,
+				EF4E9C072C11AC9200DFA40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF4E9BCD2C11AC8F00DFA40B /* Project object */;
+}
